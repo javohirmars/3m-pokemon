@@ -14,7 +14,7 @@ function render(array, place) {
         
         // create img element
         var newImg = document.createElement("img")
-        newImg.src = `http://www.serebii.net/pokemongo/pokemon/${item.num}.png`
+        newImg.src = item.img
         newDiv.appendChild(newImg);
         newImg.width = 120;
 
